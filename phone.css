@@ -1,0 +1,44 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    padding: 0px 7px;
+    font-size: 0.8rem;
+    padding-bottom: 8px;
+}
+
+/* Home Section  */
+#home{
+    height: 350px;
+    padding: 3px 70px;
+}
+
+#home::before{
+    height: 500px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/* Services Section  */
+#services{
+    flex-direction: column;
+}
+
+/* Clients Section  */
+#client{
+    flex-wrap: wrap;
+}
+
+#client img{
+    width: 45px;
+}
+
+/* Utility Classess */
+.btn{
+    padding: 4px 8px;
+    font-size: 1rem;
+}
